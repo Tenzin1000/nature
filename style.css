@@ -1,0 +1,228 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+body{
+	font-family: Arial , Verdana;
+	font-size:20px;
+	overflow-x: hidden;
+}
+header{
+	height: 100vh;
+	background-color: #403a3a ;
+	color:#fff;
+	font-family:'flamenco', cursive;
+	cursor: pointer;
+	overflow-y: hidden;
+}
+.wrapper{
+	background-color:#000000ab;
+}
+.logo{
+
+	padding:10px 20px;
+	max-width:1180px;
+	margin:0 auto;
+}
+nav{
+	padding:5px;
+}
+.main{
+	max-width:1180px;
+	margin:0 auto;
+	position:relative;
+}
+.main-nav li{
+	display: inline-block;
+	list-style-type: none;
+	margin-left:20px;
+	float:left;
+
+}
+.main-nav li a{
+	text-decoration: none;
+	color:#fff;
+}
+.right{
+	float :right;
+}
+.wrapper1{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border:1px solid black;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-49%,10%);
+}
+h2{
+	text-align:center;
+	font-family: Calisto MT,sans-serif;
+	color:#fff;
+	background-color:black;
+	font-size:150%;
+	height:100px;
+	width:500px;
+	padding:200px 10px;
+}
+/*====================End of Header==========================*/
+.main-img{
+	height:100vh;
+	background-color: black;
+	position:relative;
+}
+.container{
+	height:90vh;
+	width:90vw;
+	margin:10px auto;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;	
+	align-items: center;
+	justify-content: center;
+	grid-gap:0;
+	overflow:hidden;
+}
+.container>img{
+	width:100%;
+	height:100%;
+}
+/*====================END OF PHOTO =========================*/
+#third{
+	height:60vh;
+	background-color:#ffa8a8;
+	position: relative;
+}
+.para{
+	background-image: url(image/sangey.jpg);
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:30px;
+	color:white;
+	font-family: cursive;
+	font-size: 200%;
+	width:1290px;
+	padding:60px 70px;
+	text-align: center;
+	text-transform: uppercase;
+	word-spacing: 10px;
+	border:2px dotted green;
+}
+@media only screen and (max-width: 1200px){
+	.para{
+		width:1000px;
+		font-size:180%;
+	}
+}
+@media only screen and (max-width: 1060px){
+	.para{
+		width:600px;
+		font-size:180%;
+		padding:10px 50px;
+		border: 2px solid black;
+	}
+}
+@media only screen and (max-width: 688px){
+	#third{
+	background-image: url(image/sangey.jpg);
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border:5px solid #ffa8a8;
+	}
+	.para{
+		background:#1b0303a8;
+		width:300px;
+		font-size:120%;
+		padding:10px 10px;
+		border: 2px solid black;
+		margin-top:180px;
+	}
+}
+@media only screen and (max-width: 380px){
+	.para{
+		width:250px;
+		margin-top:50px;
+	}
+}
+.name{
+	font-family: Arial,Verdana;
+	color:yellow;
+	cursor: pointer;
+
+}
+.inside{
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+/*==============================================END OF THIRD===============================*/
+#last{
+	height:201.2px;
+	background-color: black;
+	color:white;
+}
+.left{
+	float:left;
+	padding:30px;
+	text-align:center;
+	width:700px;
+}
+.right{
+	float:right;
+}
+video{
+		margin-left:-900px;
+}
+@media only screen and (max-width:1314px){
+	video{display:none;}
+	.left{width:100%;}
+}
+@media only screen and (max-width:780px){
+	.left{
+		width:100%;
+		padding:30px 0;
+	}
+}
+/*====================MEDIA QUERY==========================*/
+@media only screen and (max-width: 1180px){
+	.ama{position:relative;}
+	.intro{
+		position:absolute;
+		background:transparent;
+		color:black;
+		width:100%;
+	}
+	.container{
+		grid-template-columns:1fr 1fr;
+		height:90vh;
+		width:50vw;
+	}
+	.media{
+		display:none;
+	}
+	.container>img{
+	border:none;
+	}
+}
+
+@media only screen and (max-width:998px){
+
+}
+@media only screen and (max-width:710px){
+	.container {display:block;
+		margin-left:10px;}
+		.container>img{margin-bottom:5px;}
+}
+@media only screen and (max-width:567px){
+	.intro{text-align: right font-size:100%; width: 300px; margin-left: 130px; }
+	.body{	overflow-x: hidden;}
+}
+@media only screen and (max-width:330px){
+
+}

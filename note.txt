@@ -1,0 +1,11 @@
+My responsive site--In this site I have decided to do some thing and not shoe some useless thing 
+in small devices.It took me for 1 day to do.The outlook was from internet but tried to change
+a little and make my own new site.
+
+I learnt about CSS grid and some of inner feature.
+I learnt to manage the meadia query ...
+
+		DATED ON APRIL 8,2020
+
+Thanks to media Query ...
+ 
